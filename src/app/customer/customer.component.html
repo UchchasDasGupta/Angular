@@ -4,7 +4,28 @@
     </nav>
  </div>   
 
-
+<form>
+    <div class="form-row">
+      <label> <b>Customer Id : </b></label>
+      <div class="col">
+        <input type="text" [(ngModel)]="CustomerId" class="form-control" placeholder="Customer Id">
+      </div>
+      
+    </div>
+    <div class="form-row">
+        <label> <b>Customer Name : </b></label>
+        <div class="col">
+          <input type="text" [(ngModel)]="CustomerName" class="form-control" placeholder="First name">
+        </div>
+      </div>
+      <div class="form-row">
+          <div class="form-layout-footer mg-t-30">
+              <button class="btn btn-info mg-r-5">Submit</button>
+              <button class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+      </div>
+  </form>
 
 <br>
 <br>
